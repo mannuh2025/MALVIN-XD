@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -88,7 +88,7 @@ OWNER_NAME: process.env.OWNER_NAME || "CCSSMANNUH",
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "false",
+        AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -103,7 +103,7 @@ OWNER_NAME: process.env.OWNER_NAME || "CCSSMANNUH",
         AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "false",
+   READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "254117622812",
